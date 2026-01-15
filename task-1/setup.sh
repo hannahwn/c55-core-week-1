@@ -1,1 +1,43 @@
-# Write your code here
+#!/bin/bash
+echo "Hello, world!"
+mkdir project
+cd project
+git init
+mkdir README.md resources settings.conf src
+cd resources
+touch family picture.jpg icon.png logo.png
+cd ..
+cd src
+touch database profile program.java
+cd ..
+git add .
+git commit -m "initial commit"
+echo "Setup project..."
+cd README.md
+echo "Welcome to my project" >> README.md
+cd ..
+cd src
+rm profile
+cd ..
+cd resources
+rm family picture.jpg
+cd ..
+git add .
+git commit -m "delete files"
+pwd
+cd resources
+pwd
+ls -a
+echo "Setup javascript..."
+cd ..
+cd src
+pwd
+mv program.java program.js
+echo "console.log('Javascript works!');" >> program.js
+node program.js
+cd ..
+pwd
+git add .
+git commit -m "model runs"
+ls -a
+echo "All done!"
