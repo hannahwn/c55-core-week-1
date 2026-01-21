@@ -5,7 +5,7 @@ cd project
 git init
 touch README.md resources settings.conf src
 cd resources
-touch family picture.jpg icon.png logo.png
+touch "family picture.jpg" icon.png logo.png
 cd ..
 cd src
 touch database profile program.java
