@@ -4,7 +4,10 @@ rm -rf project
 mkdir project
 cd project
 git init
-touch README.md resources settings.conf src
+touch README.md 
+touch resources 
+touch settings.conf 
+touch src
 cd resources
 touch "family picture.jpg" icon.png logo.png
 cd ..
