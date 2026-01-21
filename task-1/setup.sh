@@ -5,9 +5,9 @@ mkdir project
 cd project
 git init
 touch README.md 
-touch resources 
+mkdir resources 
 touch settings.conf 
-touch src
+mkdir src
 cd resources
 touch "family picture.jpg" icon.png logo.png
 cd ..
