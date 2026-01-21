@@ -8,7 +8,7 @@ cd resources
 touch "family picture.jpg" icon.png logo.png
 cd ..
 cd src
-touch database profile program.java
+mkdir database profile program.java
 cd ..
 git add .
 git commit -m "initial commit"
