@@ -19,11 +19,11 @@ cd src
 rm -r profile
 cd ..
 cd resources
-rm -r family picture.jpg
+rm -r "family picture.jpg"
 cd ..
 git add .
-git commit -m "delete files"
-pwd
+git commit -m "deleted files"
+sleep 3
 cd resources
 pwd
 ls resources
@@ -37,6 +37,6 @@ node program.js
 cd ..
 pwd
 git add .
-git commit -m "model runs"
+git commit -m "checked the script runs"
 ls -a
 echo "All done!"
