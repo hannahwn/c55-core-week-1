@@ -3,7 +3,7 @@ echo "Creating project..."
 mkdir project
 cd project
 git init
-mkdir README.md resources settings.conf src
+touch README.md resources settings.conf src
 cd resources
 touch family picture.jpg icon.png logo.png
 cd ..
