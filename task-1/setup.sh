@@ -13,14 +13,13 @@ cd ..
 git add .
 git commit -m "initial commit"
 echo "Setup project..."
-cd README.md
 echo "Welcome to my project" >> README.md
 cd ..
 cd src
-rm profile
+rm -r profile
 cd ..
 cd resources
-rm family picture.jpg
+rm -r family picture.jpg
 cd ..
 git add .
 git commit -m "delete files"
