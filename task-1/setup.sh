@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Hello, world!"
+echo "Creating project..."
 mkdir project
 cd project
 git init
