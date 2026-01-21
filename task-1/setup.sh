@@ -26,7 +26,7 @@ git commit -m "delete files"
 pwd
 cd resources
 pwd
-ls -a
+ls resources
 echo "Setup javascript..."
 cd ..
 cd src
