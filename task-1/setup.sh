@@ -12,34 +12,34 @@ cd resources
 touch "family picture.jpg" icon.png logo.png
 cd ..
 cd src
-mkdir database profile program.java
+touch database profile program.java
 cd ..
 git add .
 git commit -m "initial commit"
 echo "Setup project..."
 echo "Welcome to my project" >> README.md
-cd ..
+
 cd src
 rm -r profile
 cd ..
 cd resources
 rm -r "family picture.jpg"
-cd ..
+
 git add .
-git commit -m "deleted files"
+git commit -m "deleted 2 files"
 sleep 3
-cd resources
-pwd
-ls resources
+
+ls 
+
 echo "Setup javascript..."
 cd ..
 cd src
-pwd
-mv program.java program.js
+
+mv "program.java" "program.js"
 echo "console.log('Javascript works!');" >> program.js
 node program.js
 cd ..
-pwd
+
 git add .
 git commit -m "checked the script runs"
 ls -a
